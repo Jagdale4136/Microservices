@@ -1,0 +1,25 @@
+package tree;
+
+public class BinarySearchTree {
+   Node root;
+	
+//  public BinarySearchTree(int value) {
+//	  Node newNode = new Node(value);
+//	  root = newNode;
+//  }
+	
+   public boolean insert(int value) {
+	   
+   }
+   
+	class Node{
+		Node left;
+		Node right;
+		int value;
+		
+		Node(int value){
+			this.value = value;
+		}
+	}
+	
+}

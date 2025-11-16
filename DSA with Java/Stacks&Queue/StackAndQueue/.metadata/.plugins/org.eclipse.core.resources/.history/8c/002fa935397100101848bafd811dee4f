@@ -1,0 +1,10 @@
+package test;
+
+public class Main {
+public static void main(String[] args) {
+	Stack st = new Stack(5);
+	st.getHeight();
+	st.getTop();
+	st.printStack();
+}
+}

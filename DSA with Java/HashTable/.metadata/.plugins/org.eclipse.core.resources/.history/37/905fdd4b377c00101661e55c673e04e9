@@ -1,0 +1,23 @@
+package datastructure.hashtable;
+
+public class Main {
+	public static void main(String[] args) {
+
+		HashTable myht = new HashTable();
+		myht.set("nails", 10);
+		myht.set("tile", 100);
+		myht.set("lumber", 200);
+		myht.set("boalts", 420);
+		
+		myht.set("screw", 150);
+		
+		
+		myht.printTable();
+		
+		System.out.println(myht.get("tile"));
+		System.out.println(myht.get("jk"));
+		
+		System.out.println(myht.keys());
+		
+	}
+}

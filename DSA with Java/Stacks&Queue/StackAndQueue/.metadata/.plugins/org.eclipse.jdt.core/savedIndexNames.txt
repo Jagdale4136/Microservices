@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+F:\Udemy Courses\DSA with Java\Stacks&Queue\StackAndQueue\.metadata\.plugins\org.eclipse.jdt.core
+2014957666.index
+1865797976.index
+2016907486.index

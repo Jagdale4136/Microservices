@@ -1,0 +1,9 @@
+package com.dsa.doublyLinkedList;
+
+public class Node {
+
+	public Node(int value) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

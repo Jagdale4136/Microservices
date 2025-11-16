@@ -1,0 +1,14 @@
+package com.dsa.doublyLinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DoublyLinkedList myDdl = new DoublyLinkedList(7);
+		/*
+		 * myDdl.getHead(); myDdl.getTail(); myDdl.getLength();
+		 */
+		myDdl.printList();
+		
+	}
+	
+}

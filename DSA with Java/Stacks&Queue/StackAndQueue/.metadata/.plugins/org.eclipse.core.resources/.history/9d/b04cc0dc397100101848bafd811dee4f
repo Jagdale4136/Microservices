@@ -1,0 +1,14 @@
+package test;
+
+public class Main {
+public static void main(String[] args) {
+	Stack st = new Stack(5);
+	st.getHeight();
+	st.getTop();
+	st.printStack();
+	st.push(2);
+	st.printStack();
+	st.pop();
+	st.printStack();
+}
+}

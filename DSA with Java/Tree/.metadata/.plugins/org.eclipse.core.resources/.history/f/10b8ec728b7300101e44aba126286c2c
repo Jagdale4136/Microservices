@@ -1,0 +1,18 @@
+package tree;
+
+public class Main {
+public static void main(String[] args) {
+	BinarySearchTree myBTS = new BinarySearchTree();
+	myBTS.insert(45);
+	myBTS.insert(21);
+	myBTS.insert(76);
+	myBTS.insert(18);
+	myBTS.insert(52);
+	myBTS.insert(82);
+	
+	myBTS.insert(27);
+	
+	System.out.println("Root :" + myBTS.root.left.right.value);
+	System.out.println("contains 27" + myBTS.contains(27));
+}
+}

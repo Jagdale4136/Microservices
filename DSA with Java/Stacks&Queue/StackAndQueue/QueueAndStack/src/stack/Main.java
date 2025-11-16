@@ -1,0 +1,16 @@
+package stack;
+
+public class Main {
+public static void main(String[] args) {
+	Stack st = new Stack(5);
+	st.getHeight();
+	st.getTop();
+	st.printStack();
+	st.push(2);
+	System.out.println(".......");
+	st.printStack();
+	System.out.println("above values are before popping..");
+	st.pop();
+	st.printStack();
+}
+}
